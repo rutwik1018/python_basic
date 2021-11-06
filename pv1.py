@@ -1,16 +1,17 @@
-#code to cheack variable type
+# this write by file writtting value
+a=5
+b=6
+c="tejas "
+d="adhalrao"
 
-var1=54   #variable
-var2=7.5
-var3="tejas"
-var4="adhalrao"
-print("cheackin types of variables --> ")
-print(type(var1))        #checking variable type
-print(type(var2))
-print(type(var3))
-print(type(var4))
+print("cheacking the variable types :- \n")
+print("type of variable a :-->",type(a))
+print("type of variable b :-->",type(b))
+print("type of variable c :--> ",type(c))
+print("type of variable d :-->",type(d))
 
 
-print("addition of var1 and var2 = ",var1+var2)
-print("addition of var1 and var2 = ",var3+var4)
+print("\n\t -----------addition-----")
 
+print("addition of a&b :--> ",a+b)
+print("addition of c&d :--> ",c+d)

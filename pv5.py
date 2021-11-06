@@ -8,7 +8,7 @@ print("after shorting arrange in sequance ==",score)
 score.reverse()    #reverd sring
 print(" revered string == ",score)
 score.insert(2,100)
-print("@nd value become the 100",score)
+print("2nd value become the 100",score)
 
 print(game[::-1]) #another way to revered string
 game.append("running")
